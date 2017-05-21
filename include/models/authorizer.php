@@ -34,5 +34,6 @@ function pswStrengthPass($password) {
         //$checkPassword .= "Password must include at least one number!";
         return false;
     }
+}
 
     
