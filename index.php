@@ -12,6 +12,7 @@
 <div class="content">
     <div class="left-col">
         <div class="group">
+            <h2>(Gruppnamn)</h2>
           <ul>
             <li><a class="user one" href="#">(bild) Thomas Placeholder</a></li>
             <li><a class="user one" href="#">(bild) Jonas Placeholder</a></li>

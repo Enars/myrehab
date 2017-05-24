@@ -47,7 +47,6 @@ nav li a {
     text-align: center;
     padding: 16px 25px;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 nav a:hover:not(.active) {
@@ -67,7 +66,7 @@ nav .active:hover {
     margin: 1% auto;
     overflow:hidden;
     clear:both;
-    background-color: #F0f0f0;
+    background-color: #fff;
     box-shadow: 0px 0px 10px #888888;
     border-top: 5px solid #f9f9f9;
 }
@@ -75,16 +74,16 @@ nav .active:hover {
 /*Content columns */
 .left-col {
     float:left;
-    width:16%;
+    width:20%;
     background-color: #ccc;
 }
 
 .middle-col {
   float:left;
-    width:55%;
+    width:51%;
     margin:0 2%;
     height: 1000px;
-    background: #ccc;
+    background: #FFF;
     box-shadow: 0px 0px 10px #888888;
 }
 
@@ -99,6 +98,11 @@ nav .active:hover {
 .group {
   box-shadow: 0px 0px 10px #888888;
 }
+.group h2 {
+    margin:0;
+    padding:5px;
+    text-align: center;
+}
 .group ul {
     list-style-type: none;
     margin: 0;
@@ -110,13 +114,20 @@ nav .active:hover {
 }
 .group li::before {
 }
+.group ul li:nth-child(1) {  
+    border-top:1px solid black;
+}
 
 .group li a {
     display: inline-block;
     color: #000;
     padding: 14px 0px;
     text-decoration: none;
-    width:100%;   
+    width:100%;
+    border-bottom:1px solid black;   
+}
+.group a:hover {
+    background-color: #fff;
 }
 
 /* Main content page */
@@ -160,7 +171,7 @@ th.subject {
 /* Social events list */
 .social {
   margin-top: 5%;
-  background-color: #ddd;
+  background-color: #FFF;
   box-shadow: 0px 0px 15px #888888;
 }
 
@@ -176,7 +187,6 @@ th.subject {
     
   
      background-position: center left;
-     margin-left:10px;
 }
 
 .two {
