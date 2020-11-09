@@ -5,6 +5,12 @@ function validate($email, $password) {
     }
 }
 
+function validateRegister($email, $groupID, $password) {
+    if (!(empty(trim($email))) && !(empty(trim($groupID))) && !(empty(trim($password))) && filter_var($email, FILTER_VALIDATE_EMAIL)) { //!(empty(trim($profilbild))) 
+        return true;
+    }
+}
+
 function verifyPassword($password, $passHash, $salt) {
     $attemptPass = md5($password . $salt);
     if ($attemptPass == $passHash)
@@ -24,15 +30,14 @@ function generateSalt() {
 }
 
 function pswStrengthPass($password) {
-    //$checkPassword = '';
     if (strlen($password) < 8) {
-        //$checkPassword .= "Password too short!";
         return false;
     }
-
-    if (!preg_match("#[0-9]+#", $password)) {
-        //$checkPassword .= "Password must include at least one number!";
+    else if (!preg_match("#[0-9]+#", $password)) {
         return false;
+    }
+    else {
+        return true;
     }
 }
 

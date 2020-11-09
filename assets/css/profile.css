@@ -1,0 +1,37 @@
+.profile{
+    width:95%;
+    margin:auto;
+    margin-top:10px;
+    height:400px;
+    margin-bottom:25px;
+    border-radius: 5px;
+    border:1px solid silver;
+}
+.profilePicture {
+    border-right:1px solid silver;
+    width:170px;
+    float:left;
+    border-radius: 5px;
+}
+.mainPicture {
+    height:170px;
+    width:170px;
+    border-bottom:1px solid silver;
+    border-radius: 5px;
+}
+
+.profileLinks {
+    float:left;
+    height:225px;
+    width:100%;
+}
+.desc {
+}
+.profileDesc {
+    min-height:400px;
+    padding-left:200px;
+    padding-right:30px;
+}
+.profileTitle {
+
+}

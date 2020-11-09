@@ -1,6 +1,7 @@
 <?php
-include ("incl/bootstrap.php");          
+//Bugg med bootstrap, kallar på header igen
+session_start();   
 session_unset();
 session_destroy();
-redirect("login.php", false);
+header( "refresh:0.5;url=login.php" );
 ?>   

@@ -1,7 +1,11 @@
 <?php
 session_start();
-include("models/db.php");
-include("models/user.php");
-include("models/authorizer.php");
-include("models/post.php");
-include("views/header.php");
+require("models/db.php");
+require("models/user.php");
+require("models/authorizer.php");
+require("models/menus.php");
+require("views/header.php");
+require("models/content.php");
+require("models/profile.php");
+
+

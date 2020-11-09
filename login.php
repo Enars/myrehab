@@ -1,30 +1,27 @@
 <?php
-include ("incl/bootstrap.php");
-include ("login-process.php")          
+ include ("include/bootstrap.php");     
 ?>      
-        <div id="content">
-            <?php if (isset($_SESSION['login'])) echo $_SESSION['login']; ?>
-            <div id="login">
-            <h2>Log in</h2>
-            <form name="login" action="" method="post">
-              <div class="container">
-                <label><b>Email</b></label>
-                <input type="text" placeholder="Enter Email Address" name="email" required>
+<form id="loginform" class="login" name="login" action="login-process.php" method="post">
+    <h2> Welcome to MyRehab! </h2><br>
+    <label id="email"><b>Email</b></label>
+    <input type="text"  placeholder="Enter Email Address" name="email" required>
 
-                <label><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="password" required>
+    <label id="password"><b>Password</b></label>
+    <input type="password"  placeholder="Enter Password" name="password" required>
 
-                <button type="submit" name="login">Log in</button>
-              </div>
+    <button type="submit" id="buttonloggin" name="login">Log in</button><br>
+    <br>
+    
+    
+    <br>
+    <label id="forgotPassword"><b> Forgot you password? Press <u>here</u> to recieve a new!</label>
 
-              <div class="container" style="background-color:#f1f1f1">
-                <a href="logout.php" class="button cancelbtn">Sign out</a>
-                <span class="psw"><a href="register.php">Create new user</a></span>
-                <?php if(isset($output)) echo $output; ?>
-                </div>
-                </form>
-
-            <script>src="assets/js/script.js"</script>
-            </div>
-        </div>
-<?php include("incl/footer.php"); ?>
+  <div class="container" >
+    <?php
+      if(isset($output)) echo $output; ?>
+    </div>
+    
+    </form>
+<?php
+ include("include/views/footer.php");
+?>

@@ -1,10 +1,355 @@
+/* Profilknapp och Redigeraknapp */
+
+
+
+/* About.php */
+@import url("Formular.css");
+@import url("profile.css");
+
+p{
+font-style: normal;
+font-family: arial;
+}
+.checkbox {
+    position:relative;
+    top:37px;
+    right:90px;
+}
+.div-border {
+    color: #fff;
+    height: 400px;
+    width: 750px;
+    margin: 0px auto;
+    padding: 5px;
+    font-family: arial;
+}
+
+.titel-about {
+    color: #3498db;
+    text-align: center;
+}
+
+h3{
+    font-family: arial;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.ett {
+    height: 200px;
+   width: 48%;
+   
+    overflow: hidden;
+    margin: 5px auto;
+    float:left;
+    text-align: center;
+    background: #fff;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: arial;
+    color: #3498db;
+}
+
+.two {
+  height: 200px;
+   width: 48%;
+   
+    overflow: hidden;
+    margin: 5px auto;
+    float:right;
+    text-align: center;
+    background: #fff;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: arial;
+    color: #3498db;
+}
+
+
+/*admin-section*/
+
+.SearchBox{
+    margin-top: 80px;
+    border: silver;
+    border-radius: 5px;
+    
+    width: 350px;
+    
+    margin-left: 35px;
+}
+
+.Search{
+    min-height:100px;
+   width: 420px;
+   
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: arial;
+    color: #3498db;
+}
+
+.Search Input{
+ width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid silver;
+    padding: 5px;
+    border: 1px solid silver;
+    font-family: arial
+}
+
+#submitpost{
+    margin-top: 10px;
+    padding: 5px;
+    width: 82px;
+    height: 30px;
+    margin-bottom: 30px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 3px;
+    border: 0;
+    font-family:verdana;
+    font-weight:bold;
+}
+
+#submitevent1{
+    float:left;
+    margin-top: 10px;
+    padding: 5px;
+    width: 110px;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 3px;
+    border: 0;
+    font-family:verdana;
+    font-weight:bold;
+}
+
+#submitevent{
+    margin-top: 10px;
+    padding: 5px;
+    width: 110px;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 3px;
+    border: 0;
+    font-family:verdana;
+    font-weight:bold;
+}
+
+.newpatient{
+     width: 420px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: arial;
+    color: #3498db;
+}
+
+
+.newpatient input{
+    width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid silver;
+    padding: 5px;
+    font-family: arial;
+
+}
+
+.changegroup input{
+    width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid silver;
+    padding: 5px;
+    font-family: arial;
+
+}
+
+.changegroup{
+     width: 420px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: arial;
+    color: #3498db;
+
+}
+
+.CreateGroup input{
+      width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid silver;
+    padding: 5px;
+    font-family: arial;
+}
+
+.CreateGroup{
+    width: 420px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: arial;
+    color: #3498db;
+}
+
+.CreateEvent{
+    width: 420px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: arial;
+    color: #3498db;
+}
+
+.MemberMod{
+    width: 420px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: arial;
+    color: #3498db;
+}
+
+#GroupForm input{
+    width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid silver;
+    padding: 5px;
+    font-family: arial;
+
+}
+
+#EventForm input{
+    width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid silver;
+    padding: 5px;
+    font-family: arial;
+
+}
+
+#MemberForm input{
+    width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid silver;
+    padding: 5px;
+    font-family: arial;
+
+}
+
+/* CommentSection */
+
+/* login */
+
+
+.myError{
+    width: 420px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 180px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: arial;
+    color: #3498db;
+}
+
+
+#loginform{
+    width: 420px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 180px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: arial;
+    color: #3498db;
+}
+h2{
+    font-family: Arial;
+    text-align: center;
+    color: #3498db;
+
+}
+#forgotPassword{
+    
+    font-size: 14px;
+    text-align: center;
+}
+
+
+#loginform input{
+    width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid silver;
+    padding: 5px;
+    font-family: arial;
+
+}
+#loginform #buttonloggin{
+    margin-top: 15px;
+    padding: 5px;
+    width: 415px;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 3px;
+    border: 0;
+    font-size: 15px;
+}
+
 /* main */
 body {
   text-align:left;
   height:100%;
   margin: 0 auto;
   width:80%;
-  background-color: #fff;
+  background-color: #CCF2F2;
 }
 
 .header {
@@ -13,9 +358,18 @@ body {
 .title {
   float: left;
   padding: 6px 3%;
-  font-size: 200%;
-  text-decoration: none;
-  color: white;
+}
+.logotext{
+    font-size: 190%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px black;
+    float: right;
+    font-family: arial;
+    font-weight: bold;
+    color: #3498db
+    
+    
 }
 
 /* navbar */
@@ -24,73 +378,93 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #666;
+    background-color: #fff;
+    font-family: arial;
+    font-weight: bold;
+    color: #3498db;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+ 
   }
 
 nav li {
     float: left;
 }
 
-nav ul li:nth-child(3) {  
+nav ul li:last-child {  
     float:right;
 }
 
 nav li a {
     display: inline-block;
-    color: white;
+    color: #3498db;;
+    margin-top:0px;
+    border: 1px silver;
     text-align: center;
-    padding: 16px 25px;
+    padding: 40px 32px 25px 25px;
     text-decoration: none;
 }
 
 nav a:hover:not(.active) {
-    background-color: #111;
+    background-color: white;
+    opacity: 0.8;
 }
 
 nav .active {
-background-color:#4CAF50;
+background-color:#3498db;
 }
 
 nav .active:hover {
-    background-color: #2a7F50;
+    background-color: #3498db;
+}
+
+.logoutProfilePicture {
+    float:right;
+    margin-left:15px;
+    width:30px;
+    height:30px;
+    padding-bottom:0px;
+}
+
+.logopic{
+    padding-bottom:0px;
+    width: 30%;
+    height: 30%;
 }
 /* Content background */
 .content {
     width:100%;
     margin: 1% auto;
     overflow:hidden;
-    clear:both;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0px 0px 10px #888888;
-    border-top: 5px solid #f9f9f9;
 }
 
 /*Content columns */
 .left-col {
     float:left;
     width:20%;
-    background-color: #ccc;
+    background-color: #fff;
 }
 
 .middle-col {
-  float:left;
+    float:left;
     width:51%;
     margin:0 2%;
-    height: 1000px;
+    height: auto;
+    font-family:arial;
     background: #FFF;
     box-shadow: 0px 0px 10px #888888;
 }
 
 .right-col {
-    float:left;
+    float:right;
     width:25%;
-    background: #f0f0f0;
+   /* background: #f0f0f0; */
     padding:0;
 }
 
@@ -114,31 +488,52 @@ nav .active:hover {
 }
 .group li::before {
 }
-.group ul li:nth-child(1) {  
+.group ul li:first-child {  
     border-top:1px solid black;
 }
-
 .group li a {
-    display: inline-block;
+    float:left;
     color: #000;
-    padding: 14px 0px;
-    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+    background-color: lightblue;
+    padding: 5px 0px;
+    font-size:90%;
     width:100%;
     border-bottom:1px solid black;   
 }
 .group a:hover {
     background-color: #fff;
 }
+.admin {
+    background-color: lightblue;
+}
+
+.groupMenuProfilePicture {
+    float:left;
+    margin-left:15px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+.groupNameText {
+    float:left;
+    margin-top:10px;
+    padding-left:10px;
+}
 
 /* Main content page */
 .main {
-
+height:100%;
 }
 
 /* Training table */
 .training {
-  background-color: #fff;
-  box-shadow: 0px 0px 10px #888888;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #888888;
 }
 table, td, th { 
     text-align: left;
@@ -153,7 +548,9 @@ th, td {
     padding: 12px;
 }
 tr:nth-child(even){
-  background-color: #ccc;
+    font-family: arial;
+    font-weight: bold;
+    background-color: lightblue;
   }
 /* Ändra bredd på kolumner 
 table {
@@ -170,29 +567,12 @@ th.subject {
 
 /* Social events list */
 .social {
-  margin-top: 5%;
-  background-color: #FFF;
-  box-shadow: 0px 0px 15px #888888;
+    margin-top: 5%;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+    background-color: #FFF;
+    box-shadow: 0px 0px 15px #888888;
 }
 
 /* profile pictures */
-.user {
-}
-
-.one {
-    background: url('http://i.stack.imgur.com/vQ4nM.jpg?s=32&amp;g=1');
-    background-repeat: no-repeat;
-    background-size: round auto;
-    
-    
-  
-     background-position: center left;
-}
-
-.two {
-  background-image: url('http://placehold.it/150x150');
-}
-
-.three {
-  background-image: url('http://placehold.it/350x750');
-}
