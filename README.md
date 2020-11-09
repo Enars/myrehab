@@ -1,4 +1,4 @@
-###MYREHAB
+# MYREHAB
 
 My first PHP web application, built for the course 'Webbprogrammering' at Uppsala University in 2017.
 
